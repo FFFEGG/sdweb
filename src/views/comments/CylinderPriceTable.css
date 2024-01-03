@@ -1,0 +1,68 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.tabs {
+    display: flex;
+}
+
+/* 其他样式保持不变 */
+
+.tabs {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.tab {
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tab:hover {
+    background-color: #f0f0f0;
+}
+
+.tab.active {
+    background-color: lightblue;
+    border-color: lightblue;
+}
+
+.save-button {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.save-button:hover {
+    background-color: #f0f0f0;
+}
+
+
+.diagonal {
+    position: relative;
+    padding: 0;
+}
+
+.diagonal::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid black;
+    transform: rotate(45deg);
+    transform-origin: 0 0;
+    z-index: -1;
+}

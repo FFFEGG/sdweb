@@ -1,0 +1,7 @@
+.semi-form-vertical .semi-form-field {
+    padding: 0 !important;
+    border: 2px solid #000;
+}
+.semi-select {
+    width: 100%;
+}

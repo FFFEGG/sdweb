@@ -1,0 +1,5 @@
+[
+  {"packagingType":"YSP35.5型钢瓶","productionYear":2023,"inspectionYear":2023,"isOwnUnit":true,"price":1000},
+  {"packagingType":"YSP28.6型钢瓶","productionYear":2022,"inspectionYear":2023,"isOwnUnit":false,"price":900},
+  {"packagingType":"YSP12型钢瓶","productionYear":2023,"inspectionYear":2023,"isOwnUnit":true,"price":1}
+]
